@@ -13,6 +13,7 @@ class Player  {
             print("Have changed name from: \(oldValue)")
         }
     }
+    var age:Int
 
     // methods
     func description() -> String {
@@ -29,10 +30,12 @@ class Player  {
     init() {
         self.name = "John Doe"
         self.score = 0
+        self.age = 37
     }
     
     init(name: String) {
         self.name = name
         self.score = 1000
+        self.age = 35
     }
 }
