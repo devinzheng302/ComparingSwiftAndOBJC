@@ -18,7 +18,7 @@ class Player  {
     // methods
     func description() -> String {
         let car = Vehicle()
-        car.type = "Tesla Model S"
+        car.type = "Tesla Model 3"
         car.year = 2014
         car.numberOfWheels = 4
         
