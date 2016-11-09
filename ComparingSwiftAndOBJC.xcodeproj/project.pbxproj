@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08489D431DD3BE550073BFE0 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 08489D411DD3BE550073BFE0 /* Model.xcdatamodeld */; };
 		08B865481DD2511C00BB8452 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B865471DD2511C00BB8452 /* main.m */; };
 		08B8654B1DD2511C00BB8452 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B8654A1DD2511C00BB8452 /* AppDelegate.m */; };
 		08B8654E1DD2511C00BB8452 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B8654D1DD2511C00BB8452 /* ViewController.m */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		082789481DD29852002DC465 /* ComparingSwiftAndOBJC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ComparingSwiftAndOBJC-Bridging-Header.h"; sourceTree = "<group>"; };
+		08489D421DD3BE550073BFE0 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		08B865431DD2511C00BB8452 /* ComparingSwiftAndOBJC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComparingSwiftAndOBJC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08B865471DD2511C00BB8452 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		08B865491DD2511C00BB8452 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				08B8655F1DD275B700BB8452 /* ComparingSwiftAndOBJC_macOS.playground */,
 				08B865571DD2511C00BB8452 /* Info.plist */,
 				08B865461DD2511C00BB8452 /* Supporting Files */,
+				08489D411DD3BE550073BFE0 /* Model.xcdatamodeld */,
 			);
 			path = ComparingSwiftAndOBJC;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				08B8654E1DD2511C00BB8452 /* ViewController.m in Sources */,
 				08B8654B1DD2511C00BB8452 /* AppDelegate.m in Sources */,
 				08B865481DD2511C00BB8452 /* main.m in Sources */,
+				08489D431DD3BE550073BFE0 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +341,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		08489D411DD3BE550073BFE0 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				08489D421DD3BE550073BFE0 /* Model.xcdatamodel */,
+			);
+			currentVersion = 08489D421DD3BE550073BFE0 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 08B8653B1DD2511B00BB8452 /* Project object */;
 }
